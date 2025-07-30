@@ -1,0 +1,8 @@
+---
+- name: Install NGINX with SSL
+  hosts: web
+  become: true
+  
+
+  roles:
+    - renderqwerty.ansible_innovation_nginx

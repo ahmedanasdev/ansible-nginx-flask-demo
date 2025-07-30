@@ -1,0 +1,9 @@
+---
+
+yum_required_packages:
+  - nginx
+  #- libsemanage-python
+  - python3-pip
+
+domain: "mysite.local"
+backend_port: 3000
